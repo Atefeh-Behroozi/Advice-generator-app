@@ -1,0 +1,76 @@
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(192, 6%, 35%);
+  margin: 0;
+  padding: 0;
+}
+
+.center-border {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(12, 12, 12);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advice-container {
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  font-style: "Manrope";
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: hsl(150, 100%, 66%);
+}
+
+.advice-text {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.advice-quote {
+  font-size: 20px;
+  font-weight: 800;
+  color: hsl(195, 9%, 91%);
+}
+
+.divider {
+  margin: 20px 0;
+}
+
+.icon-button-container {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin-top: auto;
+}
+
+.icon-button {
+  color: #fff;
+  background-color: hsl(150, 100%, 66%);
+  border: none;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-button:hover {
+  background-color: hsl(150, 100%, 66%);
+}
